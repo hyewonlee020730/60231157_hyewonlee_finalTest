@@ -1,0 +1,397 @@
+* {
+  font-family: "Tiny5", serif; /* 모든 요소에 폰트 적용 */
+}
+
+.tiny5-regular {
+  font-family: "Tiny5", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*--------------------------------------------------------*/
+
+.background {
+  /*background-color: red;*/
+  width: 1370px;
+  height: 640px;
+  display: flex; /* Flexbox 사용 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  position: relative;
+  background-image: url("../img/background.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+
+.title-box {
+  width: 714.39px;
+  height: 122.28px;
+  background-image: url("../img/title.png"); /* title.png 경로 설정 */
+  background-size: 100% 100%;
+  position: absolute;
+  top: 15px; /* 부모 요소에서 32px 아래로 이동 */
+  align-items: center;
+}
+
+.E-text {
+  position: absolute;
+  top: 140px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff; /* 텍스트 색상 */
+  font-size: 27px; /* 글자 크기 */
+}
+
+.E-date {
+  width: 346px;
+  height: 70px;
+  background-size: 100% 100%;
+  position: absolute;
+  background-image: url("../img/E_date.png");
+  top: 80px;
+  right: 45px;
+}
+
+.E-place {
+  width: 346px;
+  height: 70px;
+  background-size: 100% 100%;
+  position: absolute;
+  background-image: url("../img/E_place.png");
+  top: 80px;
+  left: 45px;
+}
+
+/*--------------------------------------------------------*/
+
+.hell-back {
+  /*background-color: red;*/
+  width: 400px;
+  height: 440px;
+  display: flex; /* Flexbox 사용 */
+  bottom: 20px;
+  left: 45px;
+  position: absolute;
+  background-image: url("../img/hell_back.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+
+.Ghast {
+  width: 88.38px;
+  height: 101px;
+  display: flex; /* Flexbox 사용 */
+  top: 109px;
+  left: 60px;
+  position: absolute;
+  background-image: url("../img/ghast1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.Piglin {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  top: 40px;
+  right: 84px;
+  position: absolute;
+  background-image: url("../img/Piglin1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.Zombie_Piglin {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  bottom: 40px;
+  left: 2px;
+  position: absolute;
+  background-image: url("../img/Zombie_Piglin1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.Strider {
+  width: 85.33px;
+  height: 80px;
+  display: flex;
+  bottom: 80px;
+  right: 7px;
+  position: absolute;
+  background-image: url("../img/Strider1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.lavablock1 {
+  width: 40px;
+  height: 40px;
+  display: flex; /* Flexbox 사용 */
+  top: 240px;
+  left: 200px;
+  position: absolute;
+  background-image: url("../img/lava.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+.lavablock2 {
+  width: 40px;
+  height: 40px;
+  display: flex; /* Flexbox 사용 */
+  top: 280px;
+  left: 200px;
+  position: absolute;
+  background-image: url("../img/lava.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+.lavablock3 {
+  width: 40px;
+  height: 40px;
+  display: flex; /* Flexbox 사용 */
+  top: 320px;
+  left: 200px;
+  position: absolute;
+  background-image: url("../img/lava.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+
+.lavablock4 {
+  width: 40px;
+  height: 40px;
+  display: flex; /* Flexbox 사용 */
+  top: 40px;
+  left: 320px;
+  position: absolute;
+  background-image: url("../img/lava.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+.lavablock5 {
+  width: 40px;
+  height: 40px;
+  display: flex; /* Flexbox 사용 */
+  top: 80px;
+  left: 320px;
+  position: absolute;
+  background-image: url("../img/lava.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+
+.lavablock6 {
+  width: 40px;
+  height: 40px;
+  display: flex; /* Flexbox 사용 */
+  top: 120px;
+  left: 320px;
+  position: absolute;
+  background-image: url("../img/lava.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+
+/*--------------------------------------------------------*/
+.ground-back {
+  /*background-color: red;*/
+  width: 400px;
+  height: 440px;
+  display: flex; /* Flexbox 사용 */
+  bottom: 20px;
+  align-items: center; /* 수직 중앙 정렬 */
+  position: absolute;
+  background-image: url("../img/ground_back.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+
+.dirt {
+  width: 40px;
+  height: 40px;
+  display: flex; /* Flexbox 사용 */
+  bottom: 120px;
+  left: 120px;
+  position: absolute;
+  background-image: url("../img/dirt.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+
+.rock {
+  width: 40px;
+  height: 40px;
+  display: flex; /* Flexbox 사용 */
+  top: 240px;
+  left: 40px;
+  position: absolute;
+  background-image: url("../img/rock.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+.coal {
+  width: 40px;
+  height: 40px;
+  display: flex; /* Flexbox 사용 */
+  bottom: 120px;
+  left: 80px;
+  position: absolute;
+  background-image: url("../img/coal.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+.coal2 {
+  width: 40px;
+  height: 40px;
+  display: flex; /* Flexbox 사용 */
+  bottom: 80px;
+  left: 80px;
+  position: absolute;
+  background-image: url("../img/coal.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+
+.diamond {
+  width: 40px;
+  height: 40px;
+  display: flex; /* Flexbox 사용 */
+  bottom: 40px;
+  left: 80px;
+  position: absolute;
+  background-image: url("../img/diamond.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+
+.steve {
+  width: 70px;
+  height: 80px;
+  display: flex;
+  top: 120px;
+  right: 90px;
+  position: absolute;
+  background-image: url("../img/Steve1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.AX {
+  width: 74.78px;
+  height: 70px;
+  display: flex;
+  top: 123px;
+  left: 285px;
+  position: absolute;
+  background-image: url("../img/ax1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+}
+
+.Chicken {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  top: 176px;
+  left: 145px;
+  position: absolute;
+  background-image: url("../img/Chicken1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+}
+
+.Creeper {
+  width: 60px;
+  height: 80px;
+  display: flex;
+  left: 10px;
+  bottom: 40px;
+  position: absolute;
+  background-image: url("../img/Creeper1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+}
+
+.Skeleton {
+  width: 85px;
+  height: 80px;
+  display: flex;
+  bottom: 40px;
+  left: 150px;
+  position: absolute;
+  background-image: url("../img/Skeleton1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+}
+
+.Zombie {
+  width: 70px;
+  height: 80px;
+  display: flex;
+  bottom: 40px;
+  right: 80px;
+  position: absolute;
+  background-image: url("../img/Zombie1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+}
+
+/*--------------------------------------------------------*/
+
+.end-back {
+  /*background-color: red;*/
+  width: 400px;
+  height: 440px;
+  display: flex; /* Flexbox 사용 */
+  bottom: 20px;
+  right: 45px;
+  position: absolute;
+  background-image: url("../img/end_back.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+
+.E_Dragon {
+  width: 110px;
+  height: 80px;
+  display: flex;
+  top: 52px;
+  left: 40px;
+  position: absolute;
+  background-image: url("../img/E_Dragon1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+}
+
+.Shulker {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  top: 80px;
+  left: 240px;
+  position: absolute;
+  background-image: url("../img/Shulker1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+}
+
+.Enderman {
+  width: 60px;
+  height: 80px;
+  display: flex;
+  top: 320px;
+  left: 320px;
+  position: absolute;
+  background-image: url("../img/Enderman1.png"); /* 이미지 경로 */
+  background-size: 100% 100%;
+}
